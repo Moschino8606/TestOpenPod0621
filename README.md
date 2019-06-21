@@ -12,7 +12,7 @@
 $ pod spec create [NAME]
 > [NAME]: podspec 名称，一般与你在git上创建的repository相同
 // 如：
-$ pod spec create AKExtension
+$ pod spec create TestOpenPod0621
 
 2、创建一个文件夹，用于放置我的{.h/.m/.swift  Assets}等
 $ mkdir Sources
@@ -22,7 +22,7 @@ $ mkdir Sources
 // 添加所有文件
 $ git add .   
 // 提交
-$ git commit -m "Initial AKExtension"
+$ git commit -m "Initial TestOpenPod0621"
 // push到你的远程仓库
 $ git push
 // 接下来就是需要使用到的一个Tag，这个在你的.podspec中需要配置
